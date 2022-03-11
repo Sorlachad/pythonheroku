@@ -1,0 +1,422 @@
+2022-02-18 21:54:36,665:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:52499 Method:getcart status:404 error:syntax error at or near "from"
+LINE 5:                 from(
+                        ^
+
+2022-02-18 22:17:15,802:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:51342 Method:getcart status:200
+2022-02-18 22:17:34,108:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:64374 Method:getcart status:404 error:syntax error at or near "where"
+LINE 9:                         where userid=3001520
+                                ^
+
+2022-02-18 22:17:44,267:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:56722 Method:getcart status:404 error:syntax error at or near "where"
+LINE 9:                         where userid=3001520
+                                ^
+
+2022-02-18 22:17:55,752:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:52632 Method:getcart status:404 error:syntax error at or near "where"
+LINE 9:                         where userid=3001520
+                                ^
+
+2022-02-18 22:18:51,276:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:56019 Method:getcart status:404 error:syntax error at or near "where"
+LINE 9:                         where userid=3001520
+                                ^
+
+2022-02-18 22:19:08,695:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:58661 Method:getcart status:404 error:column reference "idproduct" is ambiguous
+LINE 6:                         select idproduct
+                                       ^
+
+2022-02-18 22:19:21,405:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:53120 Method:getcart status:200
+2022-02-18 22:19:47,983:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:62973 Method:getcart status:200
+2022-02-18 22:21:36,938:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:50080 Method:getcart status:404 error:syntax error at or near "userid"
+LINE 8:                         userid=3001520
+                                ^
+
+2022-02-18 22:21:44,987:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:57623 Method:getcart status:200
+2022-02-18 22:24:43,526:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:64883 Method:getcart status:200
+2022-02-18 22:24:57,479:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:52404 Method:getcart status:404 error:syntax error at or near "as"
+LINE 9:                     ) js as product
+                                 ^
+
+2022-02-18 22:25:08,812:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:58939 Method:getcart status:404 error:syntax error at or near ")"
+LINE 11:                 )as t
+                         ^
+
+2022-02-18 22:25:14,225:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:59723 Method:getcart status:200
+2022-02-18 22:25:57,568:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:53044 Method:getcart status:404 error:function xx(json[]) does not exist
+LINE 4:                     select xx(array_agg(row_to_json(js)))
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2022-02-18 22:26:02,026:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:57900 Method:getcart status:200
+2022-02-18 22:26:32,654:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:59359 Method:getcart status:200
+2022-02-18 22:28:08,948:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:55871 Method:getcart status:200
+2022-02-18 22:31:52,088:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:58844 Method:getcart status:404 error:syntax error at or near "inner"
+LINE 11:                             inner join tb_product as p on c....
+                                     ^
+
+2022-02-18 22:32:04,091:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:50007 Method:getcart status:404 error:syntax error at or near "inner"
+LINE 11:                             inner join tb_product as p on c....
+                                     ^
+
+2022-02-18 22:32:22,148:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:51017 Method:getcart status:200
+2022-02-18 22:32:33,253:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:50414 Method:getcart status:200
+2022-02-18 22:33:34,569:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:63258 Method:getcart status:200
+2022-02-18 22:35:09,631:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:52611 Method:getcart status:200
+2022-02-18 22:36:05,944:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:62697 Method:getcart status:404 error:syntax error at or near "inner"
+LINE 11:                             inner join tb_product as p on p....
+                                     ^
+
+2022-02-18 22:36:16,481:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:62149 Method:getcart status:200
+2022-02-18 22:38:50,236:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:60275 Method:getcart status:200
+2022-02-18 22:39:50,344:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:64926 Method:getcart status:200
+2022-02-18 22:40:33,014:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:50213 Method:getcart status:404 error:missing FROM-clause entry for table "c"
+LINE 13:                     where p.idproduct=c.idproduct
+                                               ^
+
+2022-02-18 22:41:31,393:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:62764 Method:getcart status:200
+2022-02-18 22:42:20,607:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:59690 Method:getcart status:200
+2022-02-18 22:42:51,159:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:61491 Method:getcart status:200
+2022-02-18 22:43:06,175:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:59842 Method:getcart status:200
+2022-02-18 22:43:22,607:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:51883 Method:getcart status:200
+2022-02-18 22:43:48,940:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:63556 Method:getcart status:200
+2022-02-18 22:43:57,591:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:60301 Method:getcart status:200
+2022-02-18 22:44:45,998:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:55011 Method:getcart status:200
+2022-02-18 22:45:12,048:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:53495 Method:getcart status:200
+2022-02-18 22:45:30,836:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:49975 Method:getcart status:200
+2022-02-18 22:45:39,905:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:63271 Method:getcart status:200
+2022-02-18 22:45:48,620:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:58507 Method:getcart status:200
+2022-02-18 22:55:49,084:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:56619 Method:getcart status:404 error:column reference "idproduct" is ambiguous
+LINE 6:                         select idproduct,
+                                       ^
+
+2022-02-18 22:56:12,200:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:52246 Method:getcart status:404 error:syntax error at or near "."
+LINE 6:                         selectb b.idproduct,
+                                         ^
+
+2022-02-18 22:56:28,443:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:58116 Method:getcart status:404 error:column reference "amount" is ambiguous
+LINE 10:                                 select price,amount,cartid,c...
+                                                      ^
+
+2022-02-18 22:56:58,591:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:63422 Method:getcart status:404 error:column reference "amount" is ambiguous
+LINE 10:                                 select price,amount,cartid,c...
+                                                      ^
+
+2022-02-18 22:57:17,268:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:63271 Method:getcart status:404 error:column reference "amount" is ambiguous
+LINE 10:                                 select price,amount,cartid,c...
+                                                      ^
+
+2022-02-18 22:57:34,456:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:59905 Method:getcart status:404 error:column reference "amount" is ambiguous
+LINE 10:                                 select price,amount,cartid,c...
+                                                      ^
+
+2022-02-18 22:58:34,818:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:62188 Method:getcart status:200
+2022-02-18 23:00:20,686:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:57172 Method:getcart status:200
+2022-02-18 23:01:46,853:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:50241 Method:getcart status:200
+2022-02-18 23:02:07,274:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:55863 Method:getcart status:200
+2022-02-18 23:02:28,415:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:59832 Method:getcart status:200
+2022-02-18 23:03:37,343:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:60655 Method:getcart status:404 error:column reference "idproduct" is ambiguous
+LINE 6:                         select idproduct,
+                                       ^
+
+2022-02-18 23:03:43,516:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:60779 Method:getcart status:404 error:column reference "idproduct" is ambiguous
+LINE 6:                         select idproduct,
+                                       ^
+
+2022-02-18 23:03:57,064:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:52386 Method:getcart status:200
+2022-02-18 23:04:06,151:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:65162 Method:getcart status:200
+2022-02-18 23:04:15,252:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:59494 Method:getcart status:404 error:missing FROM-clause entry for table "cc"
+LINE 12:                                 where c.idproduct=cc.idprodu...
+                                                           ^
+
+2022-02-18 23:04:21,774:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:61454 Method:getcart status:200
+2022-02-18 23:04:34,928:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:64796 Method:getcart status:200
+2022-02-18 23:04:45,003:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:60988 Method:getcart status:404 error:column reference "idproduct" is ambiguous
+LINE 10: ...           select c.price,c.amount,c.cartid,c.czid,idproduct
+                                                               ^
+
+2022-02-18 23:04:53,376:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:65047 Method:getcart status:200
+2022-02-18 23:06:21,616:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:63824 Method:getcart status:200
+2022-02-18 23:06:47,885:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:55510 Method:getcart status:200
+2022-02-18 23:06:59,912:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:52950 Method:getcart status:200
+2022-02-18 23:07:33,067:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:52501 Method:getcart status:200
+2022-02-18 23:07:48,331:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:63122 Method:getcart status:200
+2022-02-19 09:13:03,473:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57112 Method:addcart status:200
+2022-02-19 09:17:02,957:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57120 Method:addcart status:200
+2022-02-19 09:18:55,097:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57124 Method:addcart status:200
+2022-02-19 09:19:07,698:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57126 Method:addcart status:200
+2022-02-19 09:19:12,083:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57128 Method:addcart status:200
+2022-02-19 09:21:21,593:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57130 Method:addcart status:200
+2022-02-19 09:22:38,182:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57132 Method:addcart status:200
+2022-02-19 09:31:11,694:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:57897 Method:getcart status:200
+2022-02-19 09:42:58,500:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57152 Method:getcart status:200
+2022-02-19 09:44:34,851:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57154 Method:getcart status:200
+2022-02-19 09:44:49,183:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:50459 Method:getcart status:200
+2022-02-19 09:45:42,995:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57156 Method:getcart status:200
+2022-02-19 09:46:37,024:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57158 Method:getcart status:200
+2022-02-19 09:58:02,923:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57172 Method:getcart status:200
+2022-02-19 09:58:52,978:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57174 Method:getcart status:200
+2022-02-19 09:59:58,042:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57176 Method:getcart status:200
+2022-02-19 10:04:13,661:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:50490 Method:getcart status:200
+2022-02-19 10:04:34,182:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:53829 Method:getcart status:200
+2022-02-19 10:08:52,085:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57180 Method:getcart status:200
+2022-02-19 10:09:53,899:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57182 Method:getcart status:200
+2022-02-19 10:10:38,516:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57184 Method:getcart status:200
+2022-02-19 10:26:18,055:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:51563 Method:getcart status:404 error:syntax error at or near "("
+LINE 7:                     (
+                            ^
+
+2022-02-19 10:26:44,006:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:59547 Method:getcart status:200
+2022-02-19 10:27:38,988:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57296 Method:getcart status:200
+2022-02-20 22:03:07,234:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:58938 Method:getcart status:200
+2022-02-20 22:37:35,081:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59008 Method:getcart status:200
+2022-02-20 23:05:09,247:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59062 Method:updatecart status:200
+2022-02-20 23:05:09,345:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59064 Method:getcart status:200
+2022-02-20 23:06:02,099:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59066 Method:addcart status:200
+2022-02-20 23:06:02,158:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59068 Method:getcart status:200
+2022-02-20 23:54:50,955:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59084 Method:getcart status:200
+2022-02-21 00:01:32,137:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:51906 Method:getcart status:200
+2022-02-21 00:02:06,050:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:60922 Method:getcart status:200
+2022-02-21 00:08:40,395:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.25:58640 Method:getcart status:200
+2022-02-21 00:20:20,380:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59106 Method:getcart status:200
+2022-02-21 00:21:25,361:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59108 Method:getcart status:200
+2022-02-21 00:22:27,758:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59110 Method:getcart status:200
+2022-02-21 00:23:08,199:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59112 Method:getcart status:200
+2022-02-21 00:24:05,441:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59114 Method:getcart status:200
+2022-02-21 00:25:28,145:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:59118 Method:getcart status:200
+2022-02-22 12:18:13,841:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:60694 Method:getcart status:200
+2022-02-22 15:36:52,622:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:60966 Method:getcart status:200
+2022-02-22 15:41:10,401:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:60970 Method:getcart status:200
+2022-02-22 16:06:52,953:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:60976 Method:getcart status:200
+2022-02-22 16:12:36,034:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:60988 Method:getcart status:200
+2022-02-22 16:22:28,601:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:60992 Method:getcart status:200
+2022-02-22 16:30:21,842:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:60994 Method:getcart status:200
+2022-02-22 16:47:51,780:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:60998 Method:getcart status:200
+2022-02-22 16:49:08,811:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:32768 Method:getcart status:200
+2022-02-22 16:49:53,388:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:32770 Method:getcart status:200
+2022-02-22 16:50:25,507:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:32772 Method:getcart status:200
+2022-02-22 16:51:21,899:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:32774 Method:getcart status:200
+2022-02-22 16:52:30,719:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:32786 Method:getcart status:200
+2022-02-22 16:52:53,663:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:32788 Method:getcart status:200
+2022-02-22 16:53:58,366:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:32790 Method:getcart status:200
+2022-02-22 16:58:43,118:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:32792 Method:getcart status:200
+2022-02-22 17:03:11,835:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:32794 Method:getcart status:200
+2022-02-22 19:55:18,118:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33190 Method:getcart status:200
+2022-02-22 20:03:58,947:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33204 Method:getcart status:200
+2022-02-22 20:05:21,643:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33206 Method:getcart status:200
+2022-02-22 20:08:10,544:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33214 Method:getcart status:200
+2022-02-22 20:14:24,096:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33216 Method:getcart status:200
+2022-02-22 20:24:29,442:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33242 Method:getcart status:200
+2022-02-22 20:48:45,397:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33272 Method:updatecart status:200
+2022-02-22 20:48:45,498:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33274 Method:getcart status:200
+2022-02-22 20:48:55,036:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33278 Method:updatecart status:200
+2022-02-22 20:48:55,182:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33280 Method:getcart status:200
+2022-02-22 20:49:29,016:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33282 Method:addcart status:200
+2022-02-22 20:49:29,136:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33284 Method:getcart status:200
+2022-02-22 20:57:50,232:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33288 Method:addcart status:200
+2022-02-22 20:57:50,309:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33290 Method:getcart status:200
+2022-02-22 20:58:11,447:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33292 Method:addcart status:200
+2022-02-22 20:58:11,603:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33294 Method:getcart status:200
+2022-02-22 21:04:27,726:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33296 Method:updatecart status:200
+2022-02-22 21:04:27,831:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:33298 Method:getcart status:200
+2022-02-25 11:46:44,356:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37418 Method:getcart status:200
+2022-02-25 12:13:18,715:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37438 Method:getcart status:200
+2022-02-25 12:25:30,025:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37442 Method:getcart status:200
+2022-02-25 12:30:59,686:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37444 Method:getcart status:200
+2022-02-25 13:13:31,720:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37504 Method:getcart status:200
+2022-02-28 16:04:31,838:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40838 Method:getcart status:200
+2022-02-28 16:06:00,647:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40840 Method:getcart status:200
+2022-02-28 16:06:34,987:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40842 Method:getcart status:200
+2022-02-28 16:18:59,885:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40844 Method:getcart status:200
+2022-02-28 16:19:54,318:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40860 Method:getcart status:200
+2022-02-28 16:23:57,486:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40862 Method:getcart status:200
+2022-02-28 16:24:16,381:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40864 Method:getcart status:200
+2022-02-28 16:24:56,791:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40866 Method:getcart status:200
+2022-02-28 16:25:24,572:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40868 Method:getcart status:200
+2022-02-28 16:27:23,637:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40872 Method:getcart status:200
+2022-02-28 16:29:00,970:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40874 Method:getcart status:200
+2022-02-28 16:30:15,784:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40876 Method:getcart status:200
+2022-02-28 16:30:55,364:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40878 Method:getcart status:200
+2022-02-28 16:31:18,034:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40880 Method:getcart status:200
+2022-02-28 16:32:53,819:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40882 Method:getcart status:200
+2022-02-28 16:33:24,165:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40884 Method:getcart status:200
+2022-02-28 16:34:27,271:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40886 Method:getcart status:200
+2022-02-28 16:38:18,472:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40888 Method:getcart status:200
+2022-02-28 16:39:33,484:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40890 Method:getcart status:200
+2022-02-28 16:39:47,681:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40892 Method:getcart status:200
+2022-02-28 16:40:03,773:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40894 Method:getcart status:200
+2022-02-28 16:41:14,797:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40900 Method:getcart status:200
+2022-02-28 16:41:37,419:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40902 Method:getcart status:200
+2022-02-28 16:42:51,342:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40904 Method:getcart status:200
+2022-02-28 16:43:37,339:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40906 Method:getcart status:200
+2022-02-28 16:44:09,532:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40908 Method:getcart status:200
+2022-02-28 16:44:42,319:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40910 Method:getcart status:200
+2022-02-28 16:44:57,064:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40914 Method:getcart status:200
+2022-02-28 16:45:21,524:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40916 Method:getcart status:200
+2022-02-28 16:47:58,133:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40918 Method:getcart status:200
+2022-02-28 16:48:26,535:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40920 Method:getcart status:200
+2022-02-28 16:49:38,066:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40926 Method:getcart status:200
+2022-02-28 16:51:49,561:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40928 Method:getcart status:200
+2022-02-28 16:56:15,274:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40930 Method:getcart status:200
+2022-02-28 16:57:32,887:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40932 Method:getcart status:200
+2022-02-28 16:58:12,359:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40934 Method:getcart status:200
+2022-02-28 16:58:41,867:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40936 Method:getcart status:200
+2022-02-28 16:59:08,522:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40938 Method:getcart status:200
+2022-02-28 17:02:30,676:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40940 Method:getcart status:200
+2022-02-28 17:02:52,121:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40944 Method:getcart status:200
+2022-02-28 17:03:16,780:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40946 Method:getcart status:200
+2022-02-28 17:03:41,901:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40948 Method:getcart status:200
+2022-02-28 17:03:57,204:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40950 Method:getcart status:200
+2022-02-28 17:04:32,936:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40988 Method:getcart status:200
+2022-02-28 17:04:56,093:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:40990 Method:getcart status:200
+2022-02-28 17:08:02,356:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41302 Method:getcart status:200
+2022-02-28 17:11:24,924:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41334 Method:getcart status:200
+2022-02-28 17:12:50,787:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41338 Method:getcart status:200
+2022-02-28 17:13:11,560:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41348 Method:getcart status:200
+2022-02-28 17:13:44,851:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41350 Method:getcart status:200
+2022-02-28 17:14:17,504:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41414 Method:getcart status:200
+2022-02-28 17:15:11,233:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41416 Method:getcart status:200
+2022-02-28 17:32:44,585:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41518 Method:getcart status:200
+2022-02-28 17:37:14,499:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41554 Method:getcart status:200
+2022-03-03 21:49:23,120:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41116 Method:getcart status:200
+2022-03-03 21:49:29,386:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41118 Method:getcart status:200
+2022-03-03 21:50:03,354:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41122 Method:getcart status:200
+2022-03-03 21:50:09,904:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41124 Method:getcart status:200
+2022-03-03 21:50:15,882:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41126 Method:getcart status:200
+2022-03-03 21:50:20,895:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41128 Method:getcart status:200
+2022-03-03 21:50:25,967:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41130 Method:getcart status:200
+2022-03-03 21:50:31,092:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41132 Method:getcart status:200
+2022-03-03 21:53:42,866:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41138 Method:getcart status:200
+2022-03-03 21:53:48,567:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41140 Method:getcart status:200
+2022-03-03 21:53:53,073:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41142 Method:getcart status:200
+2022-03-03 21:53:58,935:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41144 Method:getcart status:200
+2022-03-03 21:54:03,850:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41146 Method:getcart status:200
+2022-03-03 21:54:09,676:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41154 Method:getcart status:200
+2022-03-03 23:02:46,309:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41540 Method:getcart status:200
+2022-03-03 23:03:04,980:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41544 Method:getcart status:200
+2022-03-03 23:03:11,948:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41546 Method:getcart status:200
+2022-03-03 23:03:34,845:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41548 Method:getcart status:200
+2022-03-03 23:03:39,799:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41550 Method:getcart status:200
+2022-03-03 23:03:44,489:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41552 Method:getcart status:200
+2022-03-03 23:03:55,261:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41554 Method:getcart status:200
+2022-03-03 23:04:00,592:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41556 Method:getcart status:200
+2022-03-03 23:04:05,306:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41558 Method:getcart status:200
+2022-03-03 23:04:10,953:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41560 Method:getcart status:200
+2022-03-03 23:04:37,118:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41608 Method:getcart status:200
+2022-03-03 23:04:41,546:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41610 Method:getcart status:200
+2022-03-03 23:04:54,325:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41616 Method:getcart status:200
+2022-03-03 23:05:02,020:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41618 Method:getcart status:200
+2022-03-03 23:07:35,822:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41650 Method:getcart status:200
+2022-03-03 23:07:43,257:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41652 Method:getcart status:200
+2022-03-03 23:09:26,810:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41664 Method:getcart status:200
+2022-03-03 23:10:06,955:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41668 Method:getcart status:200
+2022-03-03 23:10:32,200:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41670 Method:getcart status:200
+2022-03-03 23:29:08,656:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41752 Method:getcart status:200
+2022-03-03 23:29:26,575:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41754 Method:getcart status:200
+2022-03-03 23:29:31,540:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41756 Method:getcart status:200
+2022-03-03 23:29:36,508:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41758 Method:getcart status:200
+2022-03-03 23:29:41,665:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41760 Method:getcart status:200
+2022-03-03 23:29:46,820:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41762 Method:getcart status:200
+2022-03-03 23:29:51,477:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41764 Method:getcart status:200
+2022-03-03 23:29:57,864:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41766 Method:getcart status:200
+2022-03-03 23:30:02,815:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41768 Method:getcart status:200
+2022-03-03 23:30:29,311:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41770 Method:getcart status:200
+2022-03-03 23:30:34,794:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41772 Method:getcart status:200
+2022-03-03 23:30:44,891:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:41774 Method:getcart status:200
+2022-03-03 23:32:48,518:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36554 Method:getcart status:200
+2022-03-03 23:32:59,300:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36588 Method:getcart status:200
+2022-03-03 23:33:05,929:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36598 Method:getcart status:200
+2022-03-03 23:33:31,801:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36622 Method:getcart status:200
+2022-03-03 23:33:37,769:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36632 Method:getcart status:200
+2022-03-03 23:34:16,340:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36696 Method:getcart status:200
+2022-03-03 23:34:23,060:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36704 Method:getcart status:200
+2022-03-03 23:34:29,202:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36710 Method:getcart status:200
+2022-03-03 23:34:34,547:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36714 Method:getcart status:200
+2022-03-03 23:34:39,853:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36718 Method:getcart status:200
+2022-03-03 23:35:48,023:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36730 Method:getcart status:200
+2022-03-03 23:35:53,118:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36732 Method:getcart status:200
+2022-03-03 23:36:03,965:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36736 Method:getcart status:200
+2022-03-03 23:36:24,123:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36740 Method:getcart status:200
+2022-03-03 23:36:31,900:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36742 Method:getcart status:200
+2022-03-03 23:36:36,388:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36744 Method:getcart status:200
+2022-03-03 23:38:51,277:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36758 Method:getcart status:200
+2022-03-03 23:43:48,223:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36778 Method:getcart status:200
+2022-03-03 23:43:52,427:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36780 Method:getcart status:200
+2022-03-03 23:44:03,617:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36782 Method:getcart status:200
+2022-03-04 00:02:15,468:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36886 Method:getcart status:200
+2022-03-04 00:02:39,343:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:36898 Method:getcart status:200
+2022-03-04 00:12:56,220:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37050 Method:getcart status:200
+2022-03-04 00:18:08,051:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37104 Method:getcart status:200
+2022-03-04 00:47:10,974:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37182 Method:getcart status:200
+2022-03-04 00:47:32,208:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37184 Method:getcart status:200
+2022-03-04 00:47:52,781:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37186 Method:getcart status:200
+2022-03-04 00:49:42,424:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37204 Method:getcart status:200
+2022-03-04 00:50:05,835:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:37206 Method:getcart status:200
+2022-03-04 00:54:56,044:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45468 Method:getcart status:200
+2022-03-04 00:55:04,354:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45492 Method:getcart status:200
+2022-03-04 00:55:12,110:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45500 Method:getcart status:200
+2022-03-04 00:55:17,637:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45504 Method:getcart status:200
+2022-03-04 00:55:28,528:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45530 Method:getcart status:200
+2022-03-04 00:55:51,864:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45568 Method:getcart status:200
+2022-03-04 00:56:02,139:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45584 Method:getcart status:200
+2022-03-04 00:56:10,034:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45606 Method:getcart status:200
+2022-03-04 00:56:17,917:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45616 Method:getcart status:200
+2022-03-04 00:56:25,925:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45630 Method:getcart status:200
+2022-03-04 00:56:35,725:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45634 Method:getcart status:200
+2022-03-04 00:56:42,273:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45636 Method:getcart status:200
+2022-03-04 00:56:47,896:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45638 Method:getcart status:200
+2022-03-04 00:56:52,505:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45640 Method:getcart status:200
+2022-03-04 00:57:06,130:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45650 Method:getcart status:200
+2022-03-04 00:57:10,329:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45652 Method:getcart status:200
+2022-03-04 13:19:33,079:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45626 Method:getcart status:200
+2022-03-04 13:19:40,178:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45628 Method:getcart status:200
+2022-03-04 13:21:38,627:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45630 Method:getcart status:200
+2022-03-04 13:56:47,085:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45720 Method:getcart status:200
+2022-03-04 14:32:54,800:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45798 Method:getcart status:200
+2022-03-04 14:37:23,425:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45806 Method:getcart status:200
+2022-03-04 14:48:34,047:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45828 Method:getcart status:200
+2022-03-04 14:48:48,414:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45830 Method:getcart status:200
+2022-03-04 14:50:02,264:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45858 Method:getcart status:200
+2022-03-04 14:50:28,024:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45864 Method:getcart status:200
+2022-03-04 14:50:34,969:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45866 Method:getcart status:200
+2022-03-04 14:50:43,600:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45868 Method:getcart status:200
+2022-03-04 14:50:49,021:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:45870 Method:getcart status:200
+2022-03-04 15:14:52,568:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46040 Method:getcart status:200
+2022-03-04 15:14:56,896:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46042 Method:getcart status:200
+2022-03-04 15:15:02,618:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46044 Method:getcart status:200
+2022-03-04 15:37:53,124:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46100 Method:getcart status:200
+2022-03-04 15:38:19,036:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46102 Method:getcart status:200
+2022-03-04 15:41:13,044:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46110 Method:getcart status:200
+2022-03-04 20:02:51,595:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46620 Method:getcart status:200
+2022-03-04 20:04:08,463:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46640 Method:getcart status:200
+2022-03-04 20:11:03,101:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46666 Method:getcart status:200
+2022-03-04 20:11:30,187:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46670 Method:getcart status:200
+2022-03-04 20:14:03,668:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46700 Method:getcart status:200
+2022-03-04 20:40:12,788:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46874 Method:getcart status:200
+2022-03-04 20:43:16,873:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46912 Method:getcart status:200
+2022-03-04 20:44:01,265:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46916 Method:getcart status:200
+2022-03-04 20:44:15,583:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46920 Method:getcart status:200
+2022-03-04 20:46:38,833:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46944 Method:getcart status:200
+2022-03-04 20:46:44,818:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46952 Method:getcart status:200
+2022-03-04 20:49:10,138:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46978 Method:getcart status:200
+2022-03-04 20:49:36,862:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46988 Method:getcart status:200
+2022-03-04 20:49:48,935:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:46992 Method:getcart status:200
+2022-03-04 20:53:26,024:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47024 Method:getcart status:200
+2022-03-04 20:56:18,303:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47114 Method:getcart status:200
+2022-03-04 20:56:45,337:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47118 Method:getcart status:200
+2022-03-04 20:58:46,128:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47130 Method:getcart status:200
+2022-03-04 21:39:12,297:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47186 Method:getcart status:200
+2022-03-04 21:39:29,327:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47190 Method:getcart status:200
+2022-03-04 21:56:46,145:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47320 Method:getcart status:200
+2022-03-04 21:58:16,307:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47388 Method:getcart status:200
+2022-03-04 22:14:12,032:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47450 Method:getcart status:200
+2022-03-04 22:16:59,127:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47480 Method:getcart status:200
+2022-03-04 22:17:41,790:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47484 Method:getcart status:200
+2022-03-04 22:19:04,811:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:47490 Method:getcart status:200
+2022-03-05 11:05:59,434:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:48620 Method:getcart status:200
+2022-03-05 11:15:06,452:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:48640 Method:getcart status:200
+2022-03-05 11:26:09,095:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:48700 Method:getcart status:200
+2022-03-05 11:26:54,868:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:48706 Method:getcart status:200
+2022-03-05 11:28:57,471:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:48722 Method:getcart status:200
+2022-03-05 11:34:26,950:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:48728 Method:getcart status:200
+2022-03-05 12:02:02,013:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:48750 Method:getcart status:200
+2022-03-05 12:05:29,437:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:48766 Method:getcart status:200
+2022-03-06 23:00:42,729:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57474 Method:getcart status:200
+2022-03-06 23:02:35,473:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:57486 Method:getcart status:200

@@ -1,0 +1,567 @@
+2022-01-30 00:00:45,828:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:53178 Method:sendimagefreetype status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'name'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'image'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2022-01-30 00:02:04,814:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:53180 Method:sendimagefreetype status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'name'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'image'. (207); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2022-01-30 00:02:21,366:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:53182 Method:sendimagefreetype status:404 error:('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'tb_freetypeimage'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2022-01-30 12:00:49,389:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:54134 Method:sendimagefreetype status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Product.dbo.tb_freetypeimage', column 'name'. Truncated value: '/9j/4AAQSkZJRgABAQAAZABkAAD/2wBDAAYEBAUEBAYFBQUGBg'. (2628) (SQLParamData); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2022-01-30 12:03:44,125:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:54168 Method:sendimagefreetype status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Product.dbo.tb_freetypeimage', column 'name'. Truncated value: '/9j/4AAQSkZJRgABAQAAZABkAAD/2wBDAAYEBAUEBAYFBQUGBg'. (2628) (SQLParamData); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2022-01-30 12:05:30,820:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:54172 Method:sendimagefreetype status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Product.dbo.tb_freetypeimage', column 'name'. Truncated value: '/9j/4AAQSkZJRgABAQAAZABkAAD/2wBDAAYEBAUEBAYFBQUGBg'. (2628) (SQLParamData); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2022-01-30 12:08:32,986:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:54174 Method:sendimagefreetype status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Implicit conversion from data type varchar to varbinary(max) is not allowed. Use the CONVERT function to run this query. (257) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)')
+2022-01-30 12:10:36,244:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:54178 Method:sendimagefreetype status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Product.dbo.tb_imagefreetype', column 'name'. Truncated value: '/9j/4AAQSkZJRgABAQAAZABkAAD/2wBDAAYEBAUEBAYFBQUGBg'. (2628) (SQLParamData); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2022-01-30 12:20:14,465:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:54202 Method:getfreetypeimage status:404 error:('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'tb_freetypeimage'. (208) (SQLExecDirectW)")
+2022-01-31 13:21:22,034:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:55604 Method:getfreetypeimage status:200
+2022-01-31 14:52:41,610:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:55740 Method:getfreetypeimage status:200
+2022-01-31 22:26:09,889:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:56016 Method:getfreetypeimage status:200
+2022-01-31 22:26:57,637:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:56022 Method:getfreetypeimage status:200
+2022-01-31 22:27:43,017:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:56024 Method:getfreetypeimage status:200
+2022-01-31 22:47:38,598:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:56080 Method:getfreetypeimage status:200
+2022-01-31 22:49:38,229:pathApp.image.pathimage:DEBUG: IP: 192.168.1.9:56082 Method:getfreetypeimage status:200
+2022-02-01 12:35:06,809:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:39380 Method:getfreetypeimage status:200
+2022-02-01 13:21:23,757:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:39464 Method:getfreetypeimage status:200
+2022-02-07 14:47:11,738:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51118 Method:getfreetypeimage status:200
+2022-02-07 14:48:35,931:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51120 Method:getfreetypeimage status:200
+2022-02-07 15:15:13,047:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51178 Method:getfreetypeimage status:200
+2022-02-07 15:15:34,755:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51180 Method:getfreetypeimage status:200
+2022-02-07 15:17:57,132:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51190 Method:getfreetypeimage status:200
+2022-02-07 15:19:43,581:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51194 Method:getfreetypeimage status:200
+2022-02-07 15:21:23,794:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51196 Method:getfreetypeimage status:200
+2022-02-07 15:22:31,204:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51200 Method:getfreetypeimage status:200
+2022-02-07 15:24:22,827:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51202 Method:getfreetypeimage status:200
+2022-02-07 15:25:37,950:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51204 Method:getfreetypeimage status:200
+2022-02-07 15:26:35,813:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51206 Method:getfreetypeimage status:200
+2022-02-07 15:26:58,276:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51208 Method:getfreetypeimage status:200
+2022-02-07 15:27:13,071:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51210 Method:getfreetypeimage status:200
+2022-02-07 15:28:25,259:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51212 Method:getfreetypeimage status:200
+2022-02-07 15:31:57,494:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51216 Method:getfreetypeimage status:200
+2022-02-07 15:32:52,804:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51218 Method:getfreetypeimage status:200
+2022-02-07 15:37:43,553:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51224 Method:getfreetypeimage status:200
+2022-02-07 15:39:32,929:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51226 Method:getfreetypeimage status:200
+2022-02-07 15:40:19,281:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51230 Method:getfreetypeimage status:200
+2022-02-07 15:41:18,635:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51232 Method:getfreetypeimage status:200
+2022-02-07 15:42:32,441:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51236 Method:getfreetypeimage status:200
+2022-02-07 15:49:21,138:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51242 Method:getfreetypeimage status:200
+2022-02-07 15:55:18,961:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51246 Method:getfreetypeimage status:200
+2022-02-07 15:58:46,475:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51248 Method:getfreetypeimage status:200
+2022-02-07 16:19:17,905:pathApp.image.pathimage:DEBUG: IP: 192.168.1.25:51266 Method:getfreetypeimage status:200
+2022-02-08 16:18:41,899:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:64636 Method:getproduct status:404 error:('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'tb_size_tb'. (208) (SQLExecDirectW)")
+2022-02-08 16:19:33,382:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:64688 Method:getproduct status:200
+2022-02-08 16:19:57,908:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:64732 Method:getproduct status:200
+2022-02-08 16:31:38,711:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:59581 Method:getproduct status:200
+2022-02-08 16:39:31,918:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55851 Method:getproduct status:200
+2022-02-08 16:39:37,381:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:51453 Method:getproduct status:200
+2022-02-08 17:11:18,993:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:53690 Method:getproduct status:200
+2022-02-08 17:12:28,240:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:53838 Method:getproduct status:200
+2022-02-08 17:15:11,048:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54084 Method:getproduct status:200
+2022-02-08 17:16:59,360:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54253 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'FROM'. (156) (SQLExecDirectW)")
+2022-02-08 17:17:11,643:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54277 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'FROM'. (156) (SQLExecDirectW)")
+2022-02-08 17:17:31,282:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54316 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'FROM'. (156) (SQLExecDirectW)")
+2022-02-08 17:18:08,462:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54382 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'FROM'. (156) (SQLExecDirectW)")
+2022-02-08 17:18:33,206:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54426 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'where'. (156) (SQLExecDirectW)")
+2022-02-08 17:18:51,388:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54466 Method:getproduct status:200
+2022-02-08 18:47:19,725:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:63438 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'FROM'. (156)")
+2022-02-08 18:47:40,564:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:59874 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'. (102) (SQLExecDirectW)")
+2022-02-08 18:49:21,697:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60034 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'. (102) (SQLExecDirectW)")
+2022-02-08 18:49:46,651:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60077 Method:getproduct status:200
+2022-02-08 18:50:25,556:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60147 Method:getproduct status:200
+2022-02-08 18:50:44,669:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60188 Method:getproduct status:200
+2022-02-08 18:51:57,462:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60309 Method:getproduct status:200
+2022-02-08 18:52:17,378:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60346 Method:getproduct status:200
+2022-02-08 18:52:26,404:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60359 Method:getproduct status:200
+2022-02-08 18:53:08,165:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60428 Method:getproduct status:200
+2022-02-08 18:53:51,131:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60505 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the table variable "@productTable". (1087) (SQLExecDirectW)')
+2022-02-08 18:54:04,136:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60529 Method:getproduct status:200
+2022-02-08 18:54:54,342:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60622 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Must declare the table variable "@tb_product". (1087) (SQLExecDirectW)')
+2022-02-08 18:55:16,833:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60659 Method:getproduct status:200
+2022-02-08 18:55:35,496:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60696 Method:getproduct status:200
+2022-02-08 18:56:25,259:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60782 Method:getproduct status:200
+2022-02-08 18:56:36,764:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60806 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'WITHOUT_ARRAY_WRAPPER'. (102) (SQLExecDirectW)")
+2022-02-08 18:56:51,029:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60837 Method:getproduct status:200
+2022-02-08 18:57:04,975:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60863 Method:getproduct status:200
+2022-02-08 18:57:28,875:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60907 Method:getproduct status:200
+2022-02-08 18:57:58,622:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60959 Method:getproduct status:200
+2022-02-08 18:58:07,839:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60980 Method:getproduct status:200
+2022-02-08 18:58:28,386:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61018 Method:getproduct status:200
+2022-02-08 18:59:02,882:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61073 Method:getproduct status:200
+2022-02-08 19:02:05,192:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61365 Method:getproduct status:200
+2022-02-08 19:02:21,890:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61396 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'WITHOUT_ARRAY_WRAPPER'. (102) (SQLExecDirectW)")
+2022-02-08 19:02:31,224:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61413 Method:getproduct status:200
+2022-02-08 19:02:50,593:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61450 Method:getproduct status:200
+2022-02-08 19:03:37,326:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61528 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'st'. (102) (SQLExecDirectW)")
+2022-02-08 19:03:45,814:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61548 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'st'. (102) (SQLExecDirectW)")
+2022-02-08 19:03:53,889:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61564 Method:getproduct status:200
+2022-02-08 19:04:16,312:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:61608 Method:getproduct status:200
+2022-02-08 19:04:57,946:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:50282 Method:getproduct status:200
+2022-02-08 19:06:02,593:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:50390 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'st'. (102) (SQLExecDirectW)")
+2022-02-08 19:06:13,234:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:50407 Method:getproduct status:200
+2022-02-08 19:09:56,738:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:50792 Method:getproduct status:200
+2022-02-08 19:11:05,482:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:50914 Method:getproduct status:200
+2022-02-08 19:23:41,556:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:52083 Method:getproduct status:200
+2022-02-08 20:30:57,243:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:64095 Method:getproduct status:200
+2022-02-08 20:31:40,193:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57591 Method:getproduct status:200
+2022-02-08 20:32:08,069:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57640 Method:getproduct status:200
+2022-02-08 20:32:17,196:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57656 Method:getproduct status:200
+2022-02-08 20:32:34,059:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57693 Method:getproduct status:200
+2022-02-08 20:33:04,693:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57743 Method:getproduct status:200
+2022-02-08 20:41:42,633:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58583 Method:getproduct status:200
+2022-02-08 20:42:17,706:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58642 Method:getproduct status:200
+2022-02-08 20:43:30,507:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58771 Method:getproduct status:200
+2022-02-08 20:44:19,746:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58827 Method:getproduct status:200
+2022-02-08 20:44:21,003:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58827 Method:getproduct status:200
+2022-02-08 20:45:26,059:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58969 Method:getproduct status:200
+2022-02-08 20:50:39,590:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:53935 Method:getproduct status:200
+2022-02-08 20:53:13,476:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54188 Method:getproduct status:200
+2022-02-08 20:53:35,503:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54231 Method:getproduct status:200
+2022-02-08 20:56:02,042:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54495 Method:getproduct status:200
+2022-02-08 20:56:36,486:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54554 Method:getproduct status:200
+2022-02-08 20:56:49,260:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54576 Method:getproduct status:200
+2022-02-08 20:56:57,990:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54592 Method:getproduct status:200
+2022-02-08 20:58:03,212:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54707 Method:getproduct status:200
+2022-02-08 20:59:16,057:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54834 Method:getproduct status:200
+2022-02-08 21:01:49,485:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55091 Method:getproduct status:200
+2022-02-08 21:03:53,363:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55287 Method:getproduct status:200
+2022-02-08 21:04:20,577:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55336 Method:getproduct status:200
+2022-02-08 21:06:32,230:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:64577 Method:getproduct status:200
+2022-02-08 21:07:29,776:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:64675 Method:getproduct status:200
+2022-02-08 21:07:35,604:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:64686 Method:getproduct status:200
+2022-02-09 14:10:30,281:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60214 Method:getproduct status:200
+2022-02-09 14:12:18,841:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:52811 Method:getproduct status:200
+2022-02-09 14:12:30,828:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:52835 Method:getproduct status:200
+2022-02-09 14:12:39,838:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:52432 Method:getproduct status:200
+2022-02-09 14:13:16,688:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:52504 Method:getproduct status:200
+2022-02-09 14:13:28,608:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:52530 Method:getproduct status:200
+2022-02-09 14:15:27,696:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:52732 Method:getproduct status:200
+2022-02-09 14:16:06,532:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:52793 Method:getproduct status:200
+2022-02-09 14:16:31,661:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:52835 Method:getproduct status:200
+2022-02-09 14:20:19,089:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:53481 Method:getproduct status:200
+2022-02-09 14:20:34,881:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:53510 Method:getproduct status:200
+2022-02-09 14:20:42,942:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:53526 Method:getproduct status:200
+2022-02-09 14:23:40,418:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:53811 Method:getproduct status:200
+2022-02-09 14:28:50,627:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54291 Method:getproduct status:200
+2022-02-09 14:29:15,831:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54337 Method:getproduct status:200
+2022-02-09 14:29:40,829:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54379 Method:getproduct status:200
+2022-02-09 14:31:54,268:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54590 Method:getproduct status:200
+2022-02-09 14:32:07,852:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54614 Method:getproduct status:200
+2022-02-09 14:32:26,241:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54649 Method:getproduct status:200
+2022-02-09 14:33:42,653:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54772 Method:getproduct status:200
+2022-02-09 14:34:05,583:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54809 Method:getproduct status:200
+2022-02-09 14:34:16,534:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54833 Method:getproduct status:200
+2022-02-09 14:36:19,954:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55022 Method:getproduct status:200
+2022-02-09 14:36:49,079:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55075 Method:getproduct status:200
+2022-02-09 14:39:29,778:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55335 Method:getproduct status:200
+2022-02-09 14:39:49,369:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55372 Method:getproduct status:200
+2022-02-09 14:40:23,030:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55429 Method:getproduct status:200
+2022-02-09 14:40:47,251:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55477 Method:getproduct status:200
+2022-02-09 14:41:21,153:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55535 Method:getproduct status:200
+2022-02-09 14:41:39,499:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55566 Method:getproduct status:200
+2022-02-09 14:42:00,712:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55610 Method:getproduct status:200
+2022-02-09 14:42:48,999:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55689 Method:getproduct status:200
+2022-02-09 14:48:05,620:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:56188 Method:getproduct status:200
+2022-02-09 14:48:18,315:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:56214 Method:getproduct status:200
+2022-02-09 20:11:47,937:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58593 Method:getproduct status:404 error:('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'tb_imageas'. (208) (SQLExecDirectW)")
+2022-02-09 20:12:01,845:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58622 Method:getproduct status:404 error:('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'tb_images'. (208) (SQLExecDirectW)")
+2022-02-09 20:12:12,257:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58643 Method:getproduct status:200
+2022-02-09 20:12:29,967:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:58679 Method:getproduct status:200
+2022-02-09 20:44:52,606:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:55363 Method:getproduct status:200
+2022-02-09 20:47:12,453:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57322 Method:getproduct status:200
+2022-02-09 20:48:40,119:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57464 Method:getproduct status:200
+2022-02-09 20:49:45,342:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57572 Method:getproduct status:200
+2022-02-09 20:50:09,000:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57616 Method:getproduct status:200
+2022-02-09 20:51:38,596:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:57758 Method:getproduct status:200
+2022-02-10 10:26:46,065:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54194 Method:getproduct status:200
+2022-02-10 10:27:25,928:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:54243 Method:getproduct status:200
+2022-02-10 10:30:07,607:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:62728 Method:getproduct status:200
+2022-02-10 10:30:29,126:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60007 Method:getproduct status:200
+2022-02-10 10:37:59,951:pathApp.image.pathimage:DEBUG: IP: 192.168.1.41:60481 Method:getproduct status:200
+2022-02-10 14:37:06,938:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59496 Method:getproduct status:200
+2022-02-10 14:37:35,825:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59530 Method:getproduct status:200
+2022-02-10 14:37:52,821:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59555 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'from'. (156) (SQLExecDirectW)")
+2022-02-10 14:37:59,454:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59567 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'from'. (156) (SQLExecDirectW)")
+2022-02-10 14:38:06,371:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59581 Method:getproduct status:200
+2022-02-10 14:38:28,694:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59607 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'nuture'. (102) (SQLExecDirectW)")
+2022-02-10 14:38:52,124:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59639 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'nutural'. (102) (SQLExecDirectW)")
+2022-02-10 14:39:04,891:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59657 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'natural'. (102) (SQLExecDirectW)")
+2022-02-10 14:39:51,828:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59712 Method:getproduct status:200
+2022-02-11 09:08:24,051:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:58856 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:09:16,048:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:58966 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:11:07,110:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59217 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:11:23,167:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59256 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Ambiguous column name 'idproduct'. (209) (SQLExecDirectW)")
+2022-02-11 09:11:39,967:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59294 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.idproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:11:55,267:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59334 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:13:36,345:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59540 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:13:57,079:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59586 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.idproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:14:42,921:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59684 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.idproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:15:03,183:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59732 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near '='. (102) (SQLExecDirectW)")
+2022-02-11 09:15:19,055:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59768 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'where'. (156) (SQLExecDirectW)")
+2022-02-11 09:15:33,667:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59807 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:15:44,141:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59837 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.amount' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:16:02,911:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59876 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_colors.colors' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:16:11,810:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59898 Method:getproduct status:200
+2022-02-11 09:16:28,311:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61556 Method:getproduct status:200
+2022-02-11 09:16:43,434:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61590 Method:getproduct status:200
+2022-02-11 09:16:53,444:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61619 Method:getproduct status:200
+2022-02-11 09:17:23,665:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61684 Method:getproduct status:200
+2022-02-11 09:17:37,855:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61722 Method:getproduct status:200
+2022-02-11 09:17:45,719:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61743 Method:getproduct status:200
+2022-02-11 09:18:15,606:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61807 Method:getproduct status:200
+2022-02-11 09:20:10,321:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62048 Method:getproduct status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'p'. (207) (SQLExecDirectW)")
+2022-02-11 09:20:29,144:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62087 Method:getproduct status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'tb_product'. (207) (SQLExecDirectW)")
+2022-02-11 09:20:43,461:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62125 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Ambiguous column name 'idproduct'. (209) (SQLExecDirectW)")
+2022-02-11 09:21:18,225:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62200 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:21:36,857:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62243 Method:getproduct status:200
+2022-02-11 09:21:57,159:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62290 Method:getproduct status:200
+2022-02-11 09:22:22,313:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62347 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'group'. (156) (SQLExecDirectW)")
+2022-02-11 09:22:51,558:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62417 Method:getproduct status:200
+2022-02-11 09:23:03,609:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62447 Method:getproduct status:200
+2022-02-11 09:23:34,319:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62510 Method:getproduct status:200
+2022-02-11 09:24:36,413:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62647 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near 'JSON'. (102) (SQLExecDirectW)")
+2022-02-11 09:24:41,553:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62659 Method:getproduct status:200
+2022-02-11 09:24:52,207:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62689 Method:getproduct status:200
+2022-02-11 09:28:23,675:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63133 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.idproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:28:54,044:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63204 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.idproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:29:12,107:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63243 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:29:23,547:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63272 Method:getproduct status:200
+2022-02-11 09:29:44,919:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63323 Method:getproduct status:200
+2022-02-11 09:29:54,755:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63352 Method:getproduct status:200
+2022-02-11 09:30:15,120:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63398 Method:getproduct status:200
+2022-02-11 09:30:23,757:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63419 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "c.idproduct" could not be bound. (4104) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "c.colors" could not be bound. (4104)')
+2022-02-11 09:30:48,376:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63481 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.idproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 09:36:05,905:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:64167 Method:getproduct status:200
+2022-02-11 09:39:23,988:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:64574 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "p.idproduct" could not be bound. (4104) (SQLExecDirectW)')
+2022-02-11 09:40:36,977:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:64727 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "p.idproduct" could not be bound. (4104) (SQLExecDirectW)')
+2022-02-11 09:41:21,539:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:64822 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "tb_product.idproduct" could not be bound. (4104) (SQLExecDirectW)')
+2022-02-11 09:43:39,589:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:65157 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'. (102) (SQLExecDirectW)")
+2022-02-11 09:44:20,694:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:65252 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'. (102) (SQLExecDirectW)")
+2022-02-11 09:44:41,433:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:65300 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "p.idproduct" could not be bound. (4104) (SQLExecDirectW)')
+2022-02-11 09:45:34,270:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:65427 Method:getproduct status:200
+2022-02-11 09:45:55,779:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:65476 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ')'. (102) (SQLExecDirectW)")
+2022-02-11 09:46:15,157:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:65523 Method:getproduct status:200
+2022-02-11 10:12:50,315:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:58709 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]'json_build_object' is not a recognized built-in function name. (195) (SQLExecDirectW)")
+2022-02-11 10:21:19,362:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:49928 Method:getproduct status:200
+2022-02-11 10:21:58,126:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:50568 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Only one expression can be specified in the select list when the subquery is not introduced with EXISTS. (116) (SQLExecDirectW)')
+2022-02-11 10:22:17,984:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:50615 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Only one expression can be specified in the select list when the subquery is not introduced with EXISTS. (116) (SQLExecDirectW)')
+2022-02-11 10:22:31,354:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:50645 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'select'. (156) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'from'. (156)")
+2022-02-11 10:26:57,020:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:51273 Method:getproduct status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Only one expression can be specified in the select list when the subquery is not introduced with EXISTS. (116)")
+2022-02-11 10:27:10,026:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:51315 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Only one expression can be specified in the select list when the subquery is not introduced with EXISTS. (116) (SQLExecDirectW)')
+2022-02-11 10:27:35,105:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:51391 Method:getproduct status:404 error:('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Only one expression can be specified in the select list when the subquery is not introduced with EXISTS. (116) (SQLExecDirectW)')
+2022-02-11 10:40:29,409:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:53157 Method:getproduct status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'colors'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120)")
+2022-02-11 10:40:50,279:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62556 Method:getproduct status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'colors'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120)")
+2022-02-11 10:41:19,872:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62620 Method:getproduct status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'colors'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120)")
+2022-02-11 10:41:53,217:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62696 Method:getproduct status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'colors'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120)")
+2022-02-11 10:42:07,019:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62726 Method:getproduct status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'colors'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120)")
+2022-02-11 10:42:16,942:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62753 Method:getproduct status:404 error:('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'colors'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120)")
+2022-02-11 10:42:52,572:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62836 Method:getproduct status:404 error:('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column 'tb_product.nameproduct' is invalid in the select list because it is not contained in either an aggregate function or the GROUP BY clause. (8120) (SQLExecDirectW)")
+2022-02-11 10:43:20,285:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62896 Method:getproduct status:200
+2022-02-11 10:43:37,569:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62942 Method:getproduct status:200
+2022-02-11 10:43:48,466:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62964 Method:getproduct status:200
+2022-02-11 10:44:42,781:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63091 Method:getproduct status:200
+2022-02-11 10:45:07,764:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63146 Method:getproduct status:200
+2022-02-11 10:45:52,794:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63243 Method:getproduct status:200
+2022-02-11 10:47:30,597:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63462 Method:getproduct status:200
+2022-02-11 10:52:01,395:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:64040 Method:getproduct status:200
+2022-02-12 16:31:58,467:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62490 Method:getproduct status:200
+2022-02-12 16:32:13,639:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63739 Method:getproduct status:200
+2022-02-12 16:32:26,138:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:63778 Method:getproduct status:200
+2022-02-12 16:34:58,556:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62987 Method:getproduct status:200
+2022-02-12 16:35:06,604:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:57649 Method:getproduct status:200
+2022-02-12 16:35:26,027:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:58925 Method:getproduct status:200
+2022-02-12 16:35:53,263:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61883 Method:getproduct status:200
+2022-02-12 17:04:39,189:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:50427 Method:getproduct status:200
+2022-02-12 17:10:17,045:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:60614 Method:getproduct status:200
+2022-02-12 17:19:26,163:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:62107 Method:getproduct status:200
+2022-02-12 17:19:50,303:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:50895 Method:getproduct status:200
+2022-02-12 17:20:51,840:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:57569 Method:getproduct status:200
+2022-02-12 19:03:11,378:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:59019 Method:getproduct status:200
+2022-02-12 19:03:31,115:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:57427 Method:getproduct status:200
+2022-02-12 19:07:48,942:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:65481 Method:getproduct status:200
+2022-02-12 19:12:02,384:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:51537 Method:getproduct status:200
+2022-02-12 19:12:20,828:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:58347 Method:getproduct status:200
+2022-02-12 19:13:09,617:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:49325 Method:getproduct status:200
+2022-02-12 19:13:41,419:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:50046 Method:getproduct status:200
+2022-02-12 19:18:00,990:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:55844 Method:getproduct status:200
+2022-02-12 19:28:58,459:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:58609 Method:getproduct status:200
+2022-02-12 20:50:43,948:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61465 Method:getproduct status:200
+2022-02-12 21:41:52,213:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:54064 Method:getproduct status:200
+2022-02-12 21:42:38,562:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:55683 Method:getproduct status:200
+2022-02-12 21:45:39,914:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:52215 Method:getproduct status:200
+2022-02-12 21:47:38,284:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:54803 Method:getproduct status:200
+2022-02-12 21:48:34,827:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:55648 Method:getproduct status:200
+2022-02-12 21:49:39,422:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:52984 Method:getproduct status:200
+2022-02-12 21:49:54,207:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:56311 Method:getproduct status:200
+2022-02-12 21:50:40,053:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:54749 Method:getproduct status:200
+2022-02-12 21:56:02,274:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:61088 Method:getproduct status:200
+2022-02-12 21:56:45,198:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:53466 Method:getproduct status:200
+2022-02-12 21:56:57,697:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:55738 Method:getproduct status:200
+2022-02-12 22:06:36,497:pathApp.image.pathimage:DEBUG: IP: 192.168.1.12:55153 Method:getproduct status:200
+2022-02-13 11:37:28,803:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:55440 Method:getproduct status:200
+2022-02-13 11:37:58,962:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:58790 Method:getproduct status:200
+2022-02-13 11:38:39,324:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:58912 Method:getproduct status:200
+2022-02-13 11:47:46,193:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:54140 Method:getproduct status:200
+2022-02-13 11:48:33,841:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:54286 Method:getproduct status:200
+2022-02-13 11:51:15,044:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:59495 Method:getproduct status:200
+2022-02-13 11:53:55,731:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:52340 Method:getproduct status:200
+2022-02-13 11:58:25,168:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:52228 Method:getproduct status:200
+2022-02-13 12:03:17,277:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:56182 Method:getproduct status:200
+2022-02-13 12:09:32,295:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:57406 Method:getproduct status:200
+2022-02-13 12:52:05,347:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:63391 Method:getfreetypeimage status:200
+2022-02-13 12:52:43,387:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:50450 Method:getfreetypeimage status:200
+2022-02-13 12:59:56,611:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52360 Method:getfreetypeimage status:200
+2022-02-13 13:00:54,374:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:49175 Method:getfreetypeimage status:200
+2022-02-13 13:04:40,200:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:51982 Method:getfreetypeimage status:200
+2022-02-13 13:50:28,363:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:58062 Method:getfreetypeimage status:200
+2022-02-13 14:15:10,512:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:53894 Method:getfreetypeimage status:200
+2022-02-13 14:15:23,696:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:49931 Method:getfreetypeimage status:200
+2022-02-13 14:15:32,621:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:61254 Method:getfreetypeimage status:200
+2022-02-13 14:15:39,229:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:54009 Method:getfreetypeimage status:200
+2022-02-13 14:16:33,225:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:52151 Method:getfreetypeimage status:200
+2022-02-13 14:16:48,704:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:62157 Method:getfreetypeimage status:200
+2022-02-13 14:16:55,659:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:58612 Method:getfreetypeimage status:200
+2022-02-13 14:18:15,199:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52668 Method:getfreetypeimage status:200
+2022-02-13 14:19:02,425:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:55306 Method:getfreetypeimage status:200
+2022-02-13 14:19:25,912:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:53064 Method:getfreetypeimage status:200
+2022-02-13 14:20:01,671:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52700 Method:getfreetypeimage status:200
+2022-02-13 14:42:49,929:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:57126 Method:getfreetypeimage status:200
+2022-02-13 14:43:15,260:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:51316 Method:getfreetypeimage status:200
+2022-02-13 15:05:19,929:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:55111 Method:getfreetypeimage status:200
+2022-02-13 15:13:45,326:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52798 Method:getfreetypeimage status:200
+2022-02-13 15:28:29,538:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52808 Method:getfreetypeimage status:200
+2022-02-13 15:48:53,828:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:52894 Method:getproduct status:200
+2022-02-13 16:08:26,639:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52832 Method:getfreetypeimage status:200
+2022-02-13 16:10:18,048:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52844 Method:getproduct status:200
+2022-02-13 16:10:55,931:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52846 Method:getproduct status:200
+2022-02-13 16:13:24,493:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52850 Method:getproduct status:200
+2022-02-13 16:13:56,204:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52852 Method:getfreetypeimage status:200
+2022-02-13 16:13:58,851:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52854 Method:getproduct status:200
+2022-02-13 16:20:08,094:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52858 Method:getproduct status:200
+2022-02-13 16:21:18,170:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52860 Method:getproduct status:200
+2022-02-13 16:21:46,924:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52862 Method:getfreetypeimage status:200
+2022-02-13 16:21:48,821:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52864 Method:getproduct status:200
+2022-02-13 16:22:31,306:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52866 Method:getfreetypeimage status:200
+2022-02-13 16:22:34,323:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52868 Method:getproduct status:200
+2022-02-13 16:30:10,529:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52870 Method:getproduct status:200
+2022-02-13 16:32:09,200:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52872 Method:getfreetypeimage status:200
+2022-02-13 16:32:11,846:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52874 Method:getproduct status:200
+2022-02-13 16:32:56,999:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52876 Method:getproduct status:200
+2022-02-13 16:34:34,343:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52878 Method:getfreetypeimage status:200
+2022-02-13 16:35:55,853:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52882 Method:getfreetypeimage status:200
+2022-02-13 16:36:55,266:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52884 Method:getproduct status:200
+2022-02-13 16:38:00,971:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52886 Method:getproduct status:200
+2022-02-13 16:38:26,329:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52888 Method:getproduct status:200
+2022-02-13 16:40:44,700:pathApp.image.pathimage:DEBUG: IP: 172.20.10.3:52576 Method:getproduct status:200
+2022-02-13 16:41:17,067:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52892 Method:getproduct status:200
+2022-02-13 16:44:50,412:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:52894 Method:getproduct status:200
+2022-02-14 19:38:33,626:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40538 Method:getfreetypeimage status:200
+2022-02-14 19:38:37,423:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40540 Method:getproduct status:200
+2022-02-14 19:42:51,527:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40542 Method:getproduct status:200
+2022-02-14 19:43:57,720:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40544 Method:getproduct status:200
+2022-02-14 19:46:40,172:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40546 Method:getfreetypeimage status:200
+2022-02-14 19:48:22,492:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40550 Method:getfreetypeimage status:200
+2022-02-14 19:49:46,212:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40552 Method:getfreetypeimage status:200
+2022-02-14 19:51:54,096:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40572 Method:getfreetypeimage status:200
+2022-02-14 19:51:57,107:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40574 Method:getproduct status:200
+2022-02-14 19:52:04,831:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40576 Method:getproduct status:200
+2022-02-14 20:01:27,347:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40598 Method:getfreetypeimage status:200
+2022-02-14 20:01:52,321:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40600 Method:getfreetypeimage status:200
+2022-02-14 20:02:01,405:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40602 Method:getproduct status:200
+2022-02-14 20:09:17,586:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40604 Method:getfreetypeimage status:200
+2022-02-14 20:27:45,935:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40624 Method:getfreetypeimage status:200
+2022-02-14 20:29:39,191:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40642 Method:getfreetypeimage status:200
+2022-02-14 20:31:08,449:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40658 Method:getfreetypeimage status:200
+2022-02-14 20:36:15,982:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40662 Method:getproduct status:200
+2022-02-14 20:36:59,613:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40664 Method:getfreetypeimage status:200
+2022-02-14 20:57:37,319:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40680 Method:getproduct status:200
+2022-02-14 20:58:26,501:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40684 Method:getproduct status:200
+2022-02-14 20:58:46,153:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40686 Method:getproduct status:200
+2022-02-14 20:59:04,043:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40688 Method:getproduct status:200
+2022-02-14 20:59:28,150:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40690 Method:getproduct status:200
+2022-02-14 20:59:34,841:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40694 Method:getproduct status:200
+2022-02-14 21:00:55,642:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40696 Method:getproduct status:200
+2022-02-14 21:02:51,394:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40698 Method:getproduct status:200
+2022-02-14 21:06:38,653:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40704 Method:getproduct status:200
+2022-02-14 21:07:15,564:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40706 Method:getproduct status:200
+2022-02-14 21:11:55,458:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40710 Method:getfreetypeimage status:200
+2022-02-14 21:11:58,509:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40712 Method:getproduct status:200
+2022-02-14 21:12:09,091:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40714 Method:getproduct status:200
+2022-02-14 21:13:39,029:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40716 Method:getproduct status:200
+2022-02-14 21:13:59,821:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40718 Method:getfreetypeimage status:200
+2022-02-14 21:16:01,107:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40720 Method:getfreetypeimage status:200
+2022-02-14 21:16:04,701:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40722 Method:getproduct status:200
+2022-02-14 21:16:15,494:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40724 Method:getproduct status:200
+2022-02-14 21:16:36,049:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40726 Method:getproduct status:200
+2022-02-14 21:18:07,659:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40730 Method:getproduct status:200
+2022-02-14 21:18:29,813:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40732 Method:getproduct status:200
+2022-02-14 21:18:47,677:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40734 Method:getproduct status:200
+2022-02-14 21:19:22,288:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40738 Method:getfreetypeimage status:200
+2022-02-14 21:20:29,070:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40740 Method:getproduct status:200
+2022-02-14 21:20:29,349:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40742 Method:getfreetypeimage status:200
+2022-02-14 21:26:19,142:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40746 Method:getproduct status:200
+2022-02-14 21:26:20,219:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40744 Method:getfreetypeimage status:200
+2022-02-14 21:28:37,785:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40748 Method:getfreetypeimage status:200
+2022-02-14 21:28:37,929:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40750 Method:getproduct status:200
+2022-02-14 21:37:01,212:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40770 Method:getfreetypeimage status:200
+2022-02-14 21:37:01,444:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40772 Method:getproduct status:200
+2022-02-14 21:41:04,170:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40778 Method:getfreetypeimage status:200
+2022-02-14 21:41:04,348:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40780 Method:getproduct status:200
+2022-02-14 21:41:27,953:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40782 Method:getproduct status:200
+2022-02-14 21:42:08,239:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40784 Method:getproduct status:200
+2022-02-14 21:43:09,760:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40786 Method:getproduct status:200
+2022-02-14 21:43:55,976:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40788 Method:getproduct status:200
+2022-02-14 21:44:42,171:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40790 Method:getproduct status:200
+2022-02-14 22:32:14,973:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40868 Method:getproduct status:200
+2022-02-14 22:32:44,631:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:40870 Method:getproduct status:200
+2022-02-15 15:05:42,423:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:41908 Method:getproduct status:200
+2022-02-15 15:09:30,516:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:41914 Method:getproduct status:200
+2022-02-15 17:41:02,376:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:41982 Method:getproduct status:200
+2022-02-15 17:42:58,450:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:41984 Method:getproduct status:200
+2022-02-15 17:55:46,468:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:42002 Method:getproduct status:200
+2022-02-15 17:59:18,968:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:42008 Method:getproduct status:200
+2022-02-15 18:02:10,183:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:42016 Method:getproduct status:200
+2022-02-15 20:33:54,077:pathApp.image.pathimage:DEBUG: IP: 192.168.1.22:54687 Method:getproduct status:200
+2022-02-15 20:49:17,739:pathApp.image.pathimage:DEBUG: IP: 192.168.1.22:55513 Method:getproduct status:200
+2022-02-15 20:49:32,451:pathApp.image.pathimage:DEBUG: IP: 192.168.1.22:57325 Method:getproduct status:200
+2022-02-15 21:31:16,005:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:42256 Method:getproduct status:200
+2022-02-16 15:08:36,993:pathApp.image.pathimage:DEBUG: IP: 192.168.1.8:43948 Method:getproduct status:200
+2022-02-17 11:35:45,494:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:58584 Method:getproduct status:200
+2022-02-17 12:09:21,897:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:58760 Method:getproduct status:200
+2022-02-17 12:24:40,184:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:58774 Method:getproduct status:200
+2022-02-17 12:32:41,204:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:58788 Method:getproduct status:200
+2022-02-17 13:39:41,084:pathApp.image.pathimage:DEBUG: IP: 172.20.10.11:58844 Method:getproduct status:200
+2022-02-17 22:14:46,608:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:54786 Method:getproduct status:200
+2022-02-17 22:14:46,608:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:54784 Method:getproduct status:200
+2022-02-17 22:14:48,139:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:54782 Method:getproduct status:200
+2022-02-18 15:12:15,379:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:56234 Method:getproduct status:200
+2022-02-18 15:41:01,872:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:56236 Method:getproduct status:200
+2022-02-18 19:16:35,116:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:56352 Method:getproduct status:200
+2022-02-18 20:28:53,846:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:56410 Method:getproduct status:200
+2022-02-18 20:46:50,057:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56444 Method:getfreetypeimage status:404 error:column "color" does not exist
+LINE 1: ...b_colors where idproduct=2000126 and size='m' and color='bla...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "tb_colors.colors".
+
+2022-02-18 20:48:23,468:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56446 Method:getfreetypeimage status:404 error:column "color" does not exist
+LINE 1: ...b_colors where idproduct=2000126 and size='m' and color='bla...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "tb_colors.colors".
+
+2022-02-18 20:48:55,344:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56448 Method:getfreetypeimage status:404 error:column "color" does not exist
+LINE 1: ...b_colors where idproduct=2000126 and size='m' and color='bla...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "tb_colors.colors".
+
+2022-02-18 20:49:21,964:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56450 Method:getfreetypeimage status:404 error:column "color" does not exist
+LINE 1: ...b_colors where idproduct=2000126 and size='m' and color='bla...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "tb_colors.colors".
+
+2022-02-18 20:50:07,763:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56454 Method:getfreetypeimage status:404 error:column "color" does not exist
+LINE 1: ...b_colors where idproduct=2000126 and size='m' and color='bla...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "tb_colors.colors".
+
+2022-02-18 20:50:34,787:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56456 Method:getfreetypeimage status:404 error:column "color" does not exist
+LINE 1: ...b_colors where idproduct=2000126 and size='m' and color='bla...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "tb_colors.colors".
+
+2022-02-18 20:53:25,801:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56464 Method:getfreetypeimage status:404 error:column "czid" is of type integer but expression is of type integer[]
+LINE 2: ...product,price,amount,czid) values(1,2000126,500,4,ARRAY[(1)]...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2022-02-18 20:54:18,414:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56466 Method:getfreetypeimage status:404 error:column "czid" is of type integer but expression is of type integer[]
+LINE 2: ...product,price,amount,czid) values(1,2000126,500,4,ARRAY[(1)]...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2022-02-18 20:54:58,114:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56470 Method:getfreetypeimage status:404 error:column "czid" is of type integer but expression is of type integer[]
+LINE 2: ...product,price,amount,czid) values(1,2000126,500,4,ARRAY[(1)]...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2022-02-18 20:55:18,647:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56472 Method:getfreetypeimage status:404 error:null value in column "cartid" of relation "tb_cart" violates not-null constraint
+DETAIL:  Failing row contains (null, 2000126, 1, 500, 4, 1).
+
+2022-02-18 20:56:46,871:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56474 Method:getfreetypeimage status:404 error:null value in column "cartid" of relation "tb_cart" violates not-null constraint
+DETAIL:  Failing row contains (null, 2000126, 1, 500, 4, 1).
+
+2022-02-18 20:57:21,239:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56476 Method:getfreetypeimage status:404 error:null value in column "cartid" of relation "tb_cart" violates not-null constraint
+DETAIL:  Failing row contains (null, 2000126, 1, 500, 4, 1).
+
+2022-02-18 21:00:23,101:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56492 Method:getfreetypeimage status:404 error:null value in column "cartid" of relation "tb_cart" violates not-null constraint
+DETAIL:  Failing row contains (null, 2000126, 1, 500, 4, 1).
+
+2022-02-18 21:04:07,899:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56514 Method:getfreetypeimage status:404 error:insert or update on table "tb_cart" violates foreign key constraint "tb_cart_userid_fkey"
+DETAIL:  Key (userid)=(1) is not present in table "tb_users".
+
+2022-02-18 21:05:28,801:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56520 Method:getfreetypeimage status:404 error:current transaction is aborted, commands ignored until end of transaction block
+
+2022-02-18 21:06:08,813:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56526 Method:getfreetypeimage status:200
+2022-02-18 21:17:31,548:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56572 Method:getfreetypeimage status:200
+2022-02-18 21:18:11,851:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56576 Method:getfreetypeimage status:200
+2022-02-18 21:18:46,548:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56580 Method:getfreetypeimage status:200
+2022-02-18 21:20:14,895:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56582 Method:getfreetypeimage status:200
+2022-02-18 21:20:20,474:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56586 Method:getfreetypeimage status:404 error:duplicate key value violates unique constraint "tb_cart_czid_key"
+DETAIL:  Key (czid)=(1) already exists.
+
+2022-02-18 21:24:19,492:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56588 Method:getfreetypeimage status:404 error:current transaction is aborted, commands ignored until end of transaction block
+
+2022-02-18 21:25:27,480:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56590 Method:getfreetypeimage status:200
+2022-02-18 21:25:32,901:pathApp.cart.cartRouter:DEBUG: IP: 192.168.1.23:56592 Method:getfreetypeimage status:200
+2022-02-19 09:11:41,738:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:57108 Method:getproduct status:200
+2022-02-19 10:00:01,120:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:57178 Method:getproduct status:200
+2022-02-19 10:10:49,948:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:57186 Method:getproduct status:200
+2022-02-19 10:28:09,423:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:57300 Method:getproduct status:200
+2022-02-20 22:07:41,677:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:58950 Method:getproduct status:200
+2022-02-20 22:39:31,722:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:59012 Method:getproduct status:200
+2022-02-20 23:57:41,253:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:59086 Method:getproduct status:200
+2022-02-21 00:27:28,550:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:59120 Method:getproduct status:200
+2022-02-22 12:19:11,065:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:60696 Method:getproduct status:200
+2022-02-22 20:45:17,788:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:33270 Method:getproduct status:200
+2022-02-25 11:53:54,591:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:37430 Method:getproduct status:200
+2022-02-25 13:13:48,437:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:37506 Method:getproduct status:200
+2022-02-28 16:44:57,062:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:40912 Method:getfreetypeimage status:200
+2022-02-28 17:11:24,830:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:41332 Method:getfreetypeimage status:200
+2022-03-03 21:49:23,120:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:41114 Method:getfreetypeimage status:200
+2022-03-03 21:49:45,109:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:41120 Method:getproduct status:200
+2022-03-03 23:02:46,307:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:41538 Method:getfreetypeimage status:200
+2022-03-03 23:29:08,655:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:41750 Method:getfreetypeimage status:200
+2022-03-04 00:02:15,327:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:36884 Method:getfreetypeimage status:200
+2022-03-04 00:12:56,220:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:37048 Method:getfreetypeimage status:200
+2022-03-04 00:47:10,973:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:37180 Method:getfreetypeimage status:200
+2022-03-04 00:49:42,423:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:37202 Method:getfreetypeimage status:200
+2022-03-04 13:19:33,079:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:45624 Method:getfreetypeimage status:200
+2022-03-04 13:24:45,343:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:45632 Method:getproduct status:200
+2022-03-04 13:56:57,991:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:45724 Method:getproduct status:200
+2022-03-04 14:33:05,616:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:45802 Method:getproduct status:200
+2022-03-04 14:37:27,585:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:45808 Method:getproduct status:200
+2022-03-04 14:50:15,276:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:45860 Method:getproduct status:200
+2022-03-04 14:50:51,608:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:45872 Method:getproduct status:200
+2022-03-04 15:41:15,692:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46112 Method:getproduct status:200
+2022-03-04 20:11:39,632:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46688 Method:getproduct status:200
+2022-03-04 20:15:16,802:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46702 Method:getproduct status:200
+2022-03-04 20:40:17,024:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46876 Method:getproduct status:200
+2022-03-04 20:43:47,152:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46914 Method:getproduct status:200
+2022-03-04 20:44:06,245:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46918 Method:getproduct status:200
+2022-03-04 20:44:20,741:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46922 Method:getproduct status:200
+2022-03-04 20:47:41,289:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46962 Method:getproduct status:200
+2022-03-04 20:49:14,609:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46980 Method:getproduct status:200
+2022-03-04 20:49:26,499:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46986 Method:getproduct status:200
+2022-03-04 20:49:37,765:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46990 Method:getproduct status:200
+2022-03-04 20:49:50,366:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:46994 Method:getproduct status:200
+2022-03-04 20:53:27,584:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47026 Method:getproduct status:200
+2022-03-04 20:56:34,778:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47116 Method:getproduct status:200
+2022-03-04 20:56:46,736:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47120 Method:getproduct status:200
+2022-03-04 21:38:43,875:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47184 Method:getproduct status:200
+2022-03-04 21:39:16,006:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47188 Method:getproduct status:200
+2022-03-04 21:39:30,570:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47192 Method:getproduct status:200
+2022-03-04 21:56:57,197:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47326 Method:getproduct status:200
+2022-03-04 21:58:28,689:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47390 Method:getproduct status:200
+2022-03-04 22:16:01,061:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47452 Method:getproduct status:200
+2022-03-04 22:17:00,807:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47482 Method:getproduct status:200
+2022-03-04 22:18:04,477:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47486 Method:getproduct status:200
+2022-03-04 22:19:06,450:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:47492 Method:getproduct status:200
+2022-03-05 10:59:30,380:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:48616 Method:getproduct status:200
+2022-03-05 11:07:16,957:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:48622 Method:getproduct status:200
+2022-03-05 11:27:48,445:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:48712 Method:getproduct status:200
+2022-03-05 11:40:45,668:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:48730 Method:getproduct status:200
+2022-03-06 23:01:09,769:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:57478 Method:getproduct status:200
+2022-03-06 23:01:23,116:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:57480 Method:getproduct status:200
+2022-03-06 23:02:26,651:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:57484 Method:getproduct status:200
+2022-03-06 23:02:43,147:pathApp.image.pathimage:DEBUG: IP: 192.168.1.23:57488 Method:getproduct status:200
